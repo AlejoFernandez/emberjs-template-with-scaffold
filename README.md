@@ -17,8 +17,10 @@ This skeleton uses JavaScript instead of CoffeScript for scaffolt generators.
 ## Getting started
 
 ```
+npm install -g brunch
 brunch new <appname> --skeleton git@github.com:AlejoFernandez/emberjs-template-with-scaffold.git
 cd <appname>
+npm install .
 brunch watch -s
 ```
 Open [http://localhost:3333](http://localhost:3333) on your browser.
